@@ -2,8 +2,9 @@
  * main.cpp
  * */
 
-#include "../../include/sub.hpp"
-#include "gtest/gtest.h"
+#include <gtest/gtest.h>
+
+#include "sub.hpp"
 
 TEST(Sub, integer) {
     constexpr int expected = -1;

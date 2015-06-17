@@ -2,8 +2,9 @@
  * main.cpp
  * */
 
-#include "../../include/add.hpp"
-#include "gtest/gtest.h"
+#include <gtest/gtest.h>
+
+#include "add.hpp"
 
 TEST(Add, integer) {
     constexpr int expected = 3;
