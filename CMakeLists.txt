@@ -16,5 +16,6 @@ target_link_libraries(main
 # tests
 if(NOT without-test)
     enable_testing()
+    include(cmake/gtest.cmake)
     add_subdirectory(test)
 endif()
