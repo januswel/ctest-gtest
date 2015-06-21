@@ -6,7 +6,7 @@ set(CMAKE_CXX_FLAGS "-std=c++11 -Wall -Wextra -pedantic")
 include_directories(include)
 
 # libraries
-add_subdirectory(util)
+add_subdirectory(lib)
 
 # executables
 add_executable(main main.cpp)
